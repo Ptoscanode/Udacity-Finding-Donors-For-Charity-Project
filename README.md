@@ -30,17 +30,17 @@ This project requires **Python 3.x** and the following Python libraries installe
 
 `finding_donors.ipynb`: Jupyter notebook containing the analysis of the project
 
- `visuals.py`: python file containing supplementary visualization code 
+ `visuals.py`: Python file containing supplementary visualization code 
  
  `census.csv`: The modified census dataset consists of approximately 32,000 data points, with each datapoint having 13 features. This dataset is a modified version of the dataset published in the paper *"Scaling Up the Accuracy of Naive-Bayes Classifiers: a Decision-Tree Hybrid",* by Ron Kohavi. You may find this paper [online](https://www.aaai.org/Papers/KDD/1996/KDD96-033.pdf), with the original dataset hosted on [UCI](https://archive.ics.uci.edu/ml/datasets/Census+Income).
 
-`feature_importance.png`: Bar chart with the five most important predictive features according to the model
+`feature_importance.png`: Bar chart with the five most important predictive features according to the chosen model
 
 
 ### Results
 Based on training/predicting time, F-score, data size and how cleansed the data is, the model to be chosen was **Gradient Boosting**.
 
-Then, after tuning the model using GridSearch, we have the following numbers:
+Then, after tuning the model with GridSearch, we have the following numbers:
 
 |     Metric     | Unoptimized Model | Optimized Model | Naive Predictor
 | :------------: | :---------------: | :-------------: | :-------------:
@@ -52,7 +52,7 @@ Then, after tuning the model using GridSearch, we have the following numbers:
 
 ![Image](https://github.com/Ptoscanode/Udacity-Finding-Donors-For-CharityML/blob/main/feature_importance.png)
 
-The features identified by the GradientBoost algorithm and the ones I believed would be the most important are not the same.
+The features identified by the GradientBoost algorithm and the ones I assumed to be the most important are not the same.
 
 **My features:**
 
