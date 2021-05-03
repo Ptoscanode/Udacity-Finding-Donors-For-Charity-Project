@@ -89,7 +89,7 @@ I believed that **capital gain** would be more relevant than **capital loss** an
 
 ## Feature Selection 
 
-When we used only a subset of all the available features in the data both the reduced model's F-score and accuracy are lower than those of the model including all features. 
+When we used only a subset of all the available features in the data, both the reduced model's F-score and accuracy are lower than those of the model including all features. 
 
 Accuracy went down from **0.8700** to **0.8579** and the F-Score from **0.7486** to **0.7225** 
 
