@@ -15,7 +15,7 @@ The project can be broken down into the following steps:
 4 - Optimize the selected model and present it as my solution to CharityML.
 <br/>
 5 - Explore the chosen model and its predictions under the hood, to see just how well it's performing when considering the data it is given.
-
+<br/>
 
 ### Requirements
 
@@ -25,7 +25,7 @@ This project requires **Python 3.x** and the following Python libraries installe
 - [Pandas](http://pandas.pydata.org)
 - [matplotlib](http://matplotlib.org/)
 - [scikit-learn](http://scikit-learn.org/stable/)
-
+<br/>
 
 ### Files in the Repository 
 
@@ -36,7 +36,7 @@ This project requires **Python 3.x** and the following Python libraries installe
  `census.csv`: The modified census dataset consists of approximately 32,000 data points, with each datapoint having 13 features. This dataset is a modified version of the dataset published in the paper *"Scaling Up the Accuracy of Naive-Bayes Classifiers: a Decision-Tree Hybrid",* by Ron Kohavi. You may find this paper [online](https://www.aaai.org/Papers/KDD/1996/KDD96-033.pdf), with the original dataset hosted on [UCI](https://archive.ics.uci.edu/ml/datasets/Census+Income).
 
 `feature_importance.png`: Bar chart with the five most important predictive features according to the model
-
+<br/>
 
 ### Results
 Based on training/predicting time, F-score, data size and how cleansed the data is, the model to be chosen was **Gradient Boosting**.
@@ -47,7 +47,7 @@ Then, after tuning the model using GridSearch, we have the following numbers:
 | :------------: | :---------------: | :-------------: | :-------------:
 | Accuracy Score |      0.8630       |      0.8700     |     0.2478
 | F-score        |      0.7395       |      0.7486     |     0.2483
-
+<br/>
 
 ## Feature Importance
 
@@ -85,7 +85,7 @@ The features identified by the GradientBoost algorithm and the ones I believed w
 To be honest, the fact that **Capital-loss**, **Marital Status** and **Education-num** are not listed is a surprise. 
 
 I believed that **capital gain** would be more relevant than **capital loss** and that **Education level** would be more relevant than **Education num**. Maybe people who lost money are more sensitive to donate than those who have a high capital gain because they know how it is like. When it comes to Education-num, I really can't make an assumption.
-
+<br/>
 
 ## Feature Selection 
 
@@ -98,7 +98,7 @@ If it was a real time application and if time was a constraint, using the reduce
 However, because the F-score has decreased from **0.7486** to **0.7225** , I would recommend to use the model built based on the entire dataset.
 
 Unless time is a constraint and you need to deliver results as soon as possible. In the end, it boils down to a trade-off between time to deliver your results and predicting with more accuracy and precision whether a candidate makes more than $50,000 or not.
-
+<br/>
 
 ### Acknowledgements
 
