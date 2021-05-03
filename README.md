@@ -47,9 +47,11 @@ The modified census dataset consists of approximately 32,000 data points, with e
 
 ### Acknowledgements
 
-[link1](https://en.wikipedia.org/wiki/Random_forest)
+Random Forests
 
-[link2](https://www.mygreatlearning.com/blog/random-forest-algorithm/)
+(https://en.wikipedia.org/wiki/Random_forest)
+
+(https://www.mygreatlearning.com/blog/random-forest-algorithm/)
 
 
 [link1](https://www.geeksforgeeks.org/advantages-and-disadvantages-of-logistic-regression/)
