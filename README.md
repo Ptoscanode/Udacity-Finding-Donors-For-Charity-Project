@@ -79,7 +79,7 @@ The features identified by the GradientBoost algorithm and the ones I assumed to
 
 - Education-num
  
-**Capital gain** and **Age** matched, whereas Occupation and Education level didn't
+**Capital gain** and **Age** matched, whereas **Occupation**, **Hours-per-week** and **Education level** didn't.
 
 To be honest, the fact that **Capital-loss**, **Marital Status** and **Education-num** are not listed is a surprise. 
 
