@@ -1,9 +1,11 @@
 # Udacity-Finding-Donors-For-CharityML
 
-# Supervised Learning
-## Project: Finding Donors for CharityML
 
-### Install
+## Project Motivation
+
+
+
+### Requirements
 
 This project requires **Python 3.x** and the following Python libraries installed:
 
@@ -12,9 +14,14 @@ This project requires **Python 3.x** and the following Python libraries installe
 - [matplotlib](http://matplotlib.org/)
 - [scikit-learn](http://scikit-learn.org/stable/)
 
-You will also need to have software installed to run and execute an [iPython Notebook](http://ipython.org/notebook.html)
 
-We recommend students install [Anaconda](https://www.continuum.io/downloads), a pre-packaged Python distribution that contains all of the necessary libraries and software for this project. 
+### Files in the Repository 
+
+`finding_donors.ipynb` notebook file
+
+ `visuals.py`  
+ 
+ `census.csv` 
 
 ### Code
 
@@ -38,20 +45,30 @@ This will open the iPython Notebook software and project file in your browser.
 
 The modified census dataset consists of approximately 32,000 data points, with each datapoint having 13 features. This dataset is a modified version of the dataset published in the paper *"Scaling Up the Accuracy of Naive-Bayes Classifiers: a Decision-Tree Hybrid",* by Ron Kohavi. You may find this paper [online](https://www.aaai.org/Papers/KDD/1996/KDD96-033.pdf), with the original dataset hosted on [UCI](https://archive.ics.uci.edu/ml/datasets/Census+Income).
 
-**Features**
-- `age`: Age
-- `workclass`: Working Class (Private, Self-emp-not-inc, Self-emp-inc, Federal-gov, Local-gov, State-gov, Without-pay, Never-worked)
-- `education_level`: Level of Education (Bachelors, Some-college, 11th, HS-grad, Prof-school, Assoc-acdm, Assoc-voc, 9th, 7th-8th, 12th, Masters, 1st-4th, 10th, Doctorate, 5th-6th, Preschool)
-- `education-num`: Number of educational years completed
-- `marital-status`: Marital status (Married-civ-spouse, Divorced, Never-married, Separated, Widowed, Married-spouse-absent, Married-AF-spouse)
-- `occupation`: Work Occupation (Tech-support, Craft-repair, Other-service, Sales, Exec-managerial, Prof-specialty, Handlers-cleaners, Machine-op-inspct, Adm-clerical, Farming-fishing, Transport-moving, Priv-house-serv, Protective-serv, Armed-Forces)
-- `relationship`: Relationship Status (Wife, Own-child, Husband, Not-in-family, Other-relative, Unmarried)
-- `race`: Race (White, Asian-Pac-Islander, Amer-Indian-Eskimo, Other, Black)
-- `sex`: Sex (Female, Male)
-- `capital-gain`: Monetary Capital Gains
-- `capital-loss`: Monetary Capital Losses
-- `hours-per-week`: Average Hours Per Week Worked
-- `native-country`: Native Country (United-States, Cambodia, England, Puerto-Rico, Canada, Germany, Outlying-US(Guam-USVI-etc), India, Japan, Greece, South, China, Cuba, Iran, Honduras, Philippines, Italy, Poland, Jamaica, Vietnam, Mexico, Portugal, Ireland, France, Dominican-Republic, Laos, Ecuador, Taiwan, Haiti, Columbia, Hungary, Guatemala, Nicaragua, Scotland, Thailand, Yugoslavia, El-Salvador, Trinadad&Tobago, Peru, Hong, Holand-Netherlands)
+### Acknowledgements
 
-**Target Variable**
-- `income`: Income Class (<=50K, >50K)
+[link1](https://en.wikipedia.org/wiki/Random_forest)
+
+[link2](https://www.mygreatlearning.com/blog/random-forest-algorithm/)
+
+
+[link1](https://www.geeksforgeeks.org/advantages-and-disadvantages-of-logistic-regression/)
+
+[link2](https://en.wikipedia.org/wiki/Logistic_regression#:~:text=Logistic%20regression%20is%20a%20statistical,a%20form%20of%20binary%20regression)
+
+[link1](https://blog.paperspace.com/adaboost-optimizer/)
+
+[link1](https://dhirajkumarblog.medium.com/top-4-advantages-and-disadvantages-of-support-vector-machine-or-svm-a3c06a2b107)
+
+[link2](https://www.kdnuggets.com/2017/02/yhat-support-vector-machine.html#:~:text=SVM%20is%20a%20supervised%20machine,boundary%20between%20the%20possible%20outputs.)
+
+
+[link1](https://en.wikipedia.org/wiki/Gradient_boosting)
+
+[link2](https://corporatefinanceinstitute.com/resources/knowledge/other/boosting/)
+
+[link3](https://medium.com/gradient-boosting-working-limitations-time/gradient-boosting-working-and-applications-28e8d4ba866d)
+
+[link1](https://en.wikipedia.org/wiki/Bootstrap_aggregating)
+
+[link2](https://corporatefinanceinstitute.com/resources/knowledge/other/bagging-bootstrap-aggregation/)
