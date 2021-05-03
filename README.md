@@ -2,7 +2,7 @@
 
 
 ### Project Motivation
-This projects consists of applying supervised learning techniques and an analytical mind on data collected for the U.S. census to help CharityML (a fictitious charity organization) and identifying the people most likely to donate to their cause. 
+This projects consists of applying supervised learning techniques and an analytical mind on data collected for the U.S. census to help CharityML (a fictitious charity organization) identify the people most likely to donate to their cause. 
 
 The project can be broken down into the following steps:
 
