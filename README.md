@@ -95,9 +95,9 @@ Accuracy went down from **0.8700** to **0.8579** and the F-Score from **0.7486**
 
 If it was a real time application and if time was a constraint, using the reduced model could be helpful in providing some useful insights.
 
-However, because the F-score has decreased from **0.7486** to **0.7225** , I would recommend to use the model built based on the entire dataset.
+However, because the F-score has decreased from **0.7486** to **0.7225** , I would recommend to use the model built based on the entire dataset, unless time is a constraint and you need to deliver results as soon as possible.
 
-Unless time is a constraint and you need to deliver results as soon as possible. In the end, it boils down to a trade-off between time to deliver your results and predicting with more accuracy and precision whether a candidate makes more than $50,000 or not.
+In the end, it boils down to a trade-off between time to deliver your results and predicting with more accuracy and precision whether a candidate makes more than $50,000 or not.
 
 
 ### Acknowledgements
