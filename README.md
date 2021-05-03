@@ -51,7 +51,7 @@ Then, after tuning the model using GridSearch, we have the following numbers:
 
 ## Feature Importance
 
-![Image](https://github.com/Ptoscanode/Udacity-Arvato/blob/main/feature_importance.png)
+![Image](https://github.com/Ptoscanode/Udacity-Finding-Donors-For-CharityML/blob/main/feature_importance.png)
 
 The features identified by the GradientBoost algorithm and the ones I believed would be the most important are not the same.
 
