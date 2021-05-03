@@ -7,9 +7,13 @@ This projects consists of applying supervised learning techniques and an analyti
 The project can be broken down into the following steps:
 
 1 - Explore the data to learn how the census data is recorded
+<br/>
 2 - Apply a series of transformations and preprocessing techniques to manipulate the data into a workable format
+<br/>
 3 - Evaluate several supervised learners and consider which is best suited for the solution
+<br/>
 4 - Optimize the selected model and present it as my solution to CharityML.
+<br/>
 5 - Explore the chosen model and its predictions under the hood, to see just how well it's performing when considering the data it is given.
 
 
