@@ -10,7 +10,7 @@ The project can be broken down into the following steps:
 <br/>
 2 - Apply a series of transformations and preprocessing techniques to manipulate the data into a workable format
 <br/>
-3 - Evaluate several supervised learners and consider which is best suited for the solution
+3 - Evaluate several supervised learners and consider which one is best suited for the solution
 <br/>
 4 - Optimize the selected model and present it as my solution to CharityML.
 <br/>
