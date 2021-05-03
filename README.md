@@ -49,28 +49,41 @@ The modified census dataset consists of approximately 32,000 data points, with e
 
 Random Forests
 
-(https://en.wikipedia.org/wiki/Random_forest)
+https://en.wikipedia.org/wiki/Random_forest
 
-(https://www.mygreatlearning.com/blog/random-forest-algorithm/)
-
-
-[link1](https://www.geeksforgeeks.org/advantages-and-disadvantages-of-logistic-regression/)
-
-[link2](https://en.wikipedia.org/wiki/Logistic_regression#:~:text=Logistic%20regression%20is%20a%20statistical,a%20form%20of%20binary%20regression)
-
-[link1](https://blog.paperspace.com/adaboost-optimizer/)
-
-[link1](https://dhirajkumarblog.medium.com/top-4-advantages-and-disadvantages-of-support-vector-machine-or-svm-a3c06a2b107)
-
-[link2](https://www.kdnuggets.com/2017/02/yhat-support-vector-machine.html#:~:text=SVM%20is%20a%20supervised%20machine,boundary%20between%20the%20possible%20outputs.)
+https://www.mygreatlearning.com/blog/random-forest-algorithm/
 
 
-[link1](https://en.wikipedia.org/wiki/Gradient_boosting)
+Logistic Regression
 
-[link2](https://corporatefinanceinstitute.com/resources/knowledge/other/boosting/)
+https://www.geeksforgeeks.org/advantages-and-disadvantages-of-logistic-regression/
 
-[link3](https://medium.com/gradient-boosting-working-limitations-time/gradient-boosting-working-and-applications-28e8d4ba866d)
+https://en.wikipedia.org/wiki/Logistic_regression#:~:text=Logistic%20regression%20is%20a%20statistical,a%20form%20of%20binary%20regression
 
-[link1](https://en.wikipedia.org/wiki/Bootstrap_aggregating)
 
-[link2](https://corporatefinanceinstitute.com/resources/knowledge/other/bagging-bootstrap-aggregation/)
+AdaBoost
+
+https://blog.paperspace.com/adaboost-optimizer/
+
+
+Support Vector Machine
+
+https://dhirajkumarblog.medium.com/top-4-advantages-and-disadvantages-of-support-vector-machine-or-svm-a3c06a2b107
+
+https://www.kdnuggets.com/2017/02/yhat-support-vector-machine.html#:~:text=SVM%20is%20a%20supervised%20machine,boundary%20between%20the%20possible%20outputs.
+
+
+Gradient Boosting
+
+https://en.wikipedia.org/wiki/Gradient_boosting
+
+https://corporatefinanceinstitute.com/resources/knowledge/other/boosting/
+
+https://medium.com/gradient-boosting-working-limitations-time/gradient-boosting-working-and-applications-28e8d4ba866d
+
+
+Bagging
+
+https://en.wikipedia.org/wiki/Bootstrap_aggregating
+
+https://corporatefinanceinstitute.com/resources/knowledge/other/bagging-bootstrap-aggregation/
